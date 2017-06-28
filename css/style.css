@@ -1,0 +1,91 @@
+lucida {
+  font-family: Lucida Console, Monaco, monospace;
+}
+
+rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav ul ul a {
+  color: #444;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.pagecontent div ul {
+  padding: 0 0 0 50px;
+}
+.pagecontent div ul li {
+  list-style-type: circle;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+.pagecontent div a:link,
+.pagecontent div a:visited,
+.pagecontent div a:hover,
+.pagecontent div a:active {
+  text-decoration: none;
+  color: orange;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 10%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .parallax-container .section {
+    top: 0;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
