@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
-<loc>http://chrotran.lanl.gov/index.html</loc>
-<priority>0.8</priority>
-<lastmod>2017-06-28</lastmod>
-<changefreq>weekly</changefreq>
-</url></urlset>
+  <loc>https://chrotran.lanl.gov/</loc>
+  <lastmod>2017-12-08T17:41:14+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://chrotran.lanl.gov/index.html</loc>
+  <lastmod>2017-12-08T17:41:14+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://chrotran.lanl.gov/papers/Hansen%20et%20al%202017%20CHROTRAN%201.0%20A%20mathematical%20and%20computational%20model%20for%20in%20situ%20heavy%20metal%20remediation%20in%20heterogeneous%20aquifers.pdf</loc>
+  <lastmod>2018-12-14T18:18:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+</urlset>
